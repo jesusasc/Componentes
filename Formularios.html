@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5">
+        <title>Programación Web</title>
+        <link rel="stylesheet" href="prueba.css">
+    </head>
+    <body>
+        <header>
+            <h1>Programación Web</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>Lenguaje de Programacion HTML</li>
+                <li>Historia</li>
+                <li>Caracteristicas</li>
+                <li>Otros lenguajues de programacion web</li>
+                <li>Fuentes</li>
+            </ul>
+        </nav>
+        
+        <h4>Table elementos</h4>
+        <!--Estilo de la tabla-->
+        <style>
+            table, th, td{
+                border: 1px solid black;
+            }
+        </style>
+        <table style="width: 100%;">
+            <tr>
+                <td>Numero</td> 
+                <td>Email</td>
+                <td>Nombre</td>
+            </tr>
+            <tr>
+                <td>1</td> 
+                <td>jesusAntonio1812@gmail.com</td>
+                <td>Jesus Antonio</td>
+            </tr>
+        </table>
+    </br>
+    </br>
+        <form>
+            Usuario: <input type="text" name="Usuario" value="name" size="8"><br>
+            Contraseña: <input type="password" name="Contraseña" size="8">
+            <button type="submit" value="Enviar"> Enviar </button>
+            <button type="reset" value="Borrar"> Borrar </button>
+            <button type="button" value="Acción"> Acción </button>
+            <button type="button" value="Acción"> <img src="face.png"> </button>
+        </form>
+
+        <div>
+            <form>
+                <h3>Que te gusta</h3>
+                    <select aling="top" name="name1" size="3" multiple="on">
+                        <option value="v1"> Música </option>
+                        <option value="v2" selected="on"> Cine </option>
+                        <option value="v3" selected="on"> Lecturas </option>
+                        <option value="v4"> Maquetas </option>
+                        <option value="v5"> Fotografía </option>
+                        <option value="v6"> Informática </option>
+                    </select>
+            </form>
+        </div>
+
+        <section>
+            <article>
+                <header>
+                    <h1> Historia de la Web</h1>
+                </header>
+                Este lenguaje de programación Web fue inventado por Tim Berners-Lee en 1986. </br>El HTML combina el concepto de Hipertexto, que permite conectar dos elementos entre si, y el SGML (Lenguaje Estándar de Marcación General) que permite colocar etiquetas o marcas en un texto para indicar como queremos que ese documento se visualice.
+                <footer>
+                    <p>comments (0) </p>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h1>HTML</h1>
+                </header>
+                Como lenguaje para crear los contenidos de la Web, basado en Standard Generalize Markup Languaje (SGML).
+                <footer>
+                    <p>comments (0) </p>
+                </footer>
+            </article>
+        </section>
+        <aside >
+            Artículos
+        </aside>
+        <footer>
+            Copyright &copy; 2018
+        </footer>
+    </body>
+</html>
